@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header, main, footer {
+    width : 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.s1 {
+    width : 500px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 15px;
+    background-color: white;
+}
+
+section.s2 {
+    width : 500px;
+    border: 5px solid;
+    padding: 25px;
+    margin: 15px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+footer {
+    color:white;
+    background-color: black;
+    justify-content: left;
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: right; 
+    align-items: top;
+    flex-wrap:wrap;
+
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border-radius: 100%;
+}
+
+nav > ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; 
+}
+footer li {
+    padding-left: 30px;
+}
+/* 
+li {
+    margin :10px;
+} */
+
+article {
+    width:80%;
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    width: 100px;
+    padding:8px;
+    margin: 5px;
+
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+
+    color:white;
+    background-color: skyblue;
+}
+
+hr>div {
+    border-radius: 100px;
+}
+
+article > p {
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width:1024px){
+    header, main, footer {
+    width : 80%;
+    margin-left: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    }
+}
