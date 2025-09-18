@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-digital2025 3기</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../js.css">
+    <link rel="stylesheet" href="./08.css">
+    <script src="./08.js"></script>
+</head>
+
+<body>
+    <header>
+    <h1><span>단위환산</span></h1> 
+    </header>
+    <main>
+       <form>
+        <div>
+            <select id="sel1">
+                <option value="°C" selected>섭씨온도(°C)</option>
+                <option value="°F">화씨온도(°F)</option>
+            </select>
+            <select id="sel2">
+                <option value="°C">섭씨온도(°C)</option>
+                <option value="°F" selected>화씨온도(°F)</option> 
+            </select>
+        </div>
+        <div>
+            <div class="inDiv">
+                <input type="number" id="txt1">
+                <label for="txt1">°C</label>
+            </div>
+            <div class="inDiv">
+                <input type="number" id="txt2" readonly>
+                <label for="txt2">°F</label>
+            </div>
+        </div>
+       </form>
+    </main>
+   <footer>
+    <ul>
+        <li><a href="../index.html" target="_blank"> 홈으로</a></li>
+    </ul>
+   </footer>
+</body>
+
+</html>
