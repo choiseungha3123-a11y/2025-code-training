@@ -76,8 +76,8 @@ footer a:hover {    /* 하이퍼링크에 갖다 댔을때 색이 변하게 하�
 main  li {
     border-bottom:1px solid rgb(191, 191, 211);
 
-    padding: 10px;
-    margin-top: 10px;
+    padding: 3px;
+    margin-top: 2px;
 }
 
 main li:hover {
