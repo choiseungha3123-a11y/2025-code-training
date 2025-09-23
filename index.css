@@ -1,0 +1,85 @@
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+    background-color: rgb(243, 243, 243);
+}
+
+header, main, footer {
+    width : 800px;
+    background-color: white;
+
+    margin: 10px;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: rgb(54, 54, 79);
+    color:aliceblue;
+    margin : 25px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+/* header > h1 > span { */
+    header span {
+        color:yellow;
+}
+
+ul {
+    list-style: none;
+    justify-content: right;
+}
+
+footer {
+    padding:0px 20px;
+}
+
+footer > ul {
+    display:flex;
+    justify-content: end;
+}
+
+footer  li {    /* footer > ul > li 로 해도 됨 */
+    margin: 10px 10px;
+}
+
+
+a {
+    text-decoration: none;  /* 글에 써진 효과 (ex 밑줄)등에 관여 */
+}
+
+footer a {
+    display: inline-flex;
+    background-color: rgb(54, 54, 79);
+    color: aliceblue;
+    
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+footer a:hover {    /* 하이퍼링크에 갖다 댔을때 색이 변하게 하는 기능 */
+    background-color:brown;
+}
+
+
+
+main  li {
+    border-bottom:1px solid rgb(191, 191, 211);
+
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main li:hover {
+    background-color: aliceblue;
+}

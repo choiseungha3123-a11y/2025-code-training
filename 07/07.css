@@ -1,0 +1,15 @@
+#diceDiv {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 40px;
+
+}
+
+#diceDiv > div {
+    margin : 10px 40px;
+}
+
+#diceDiv h2 {
+    text-align: center;
+}
