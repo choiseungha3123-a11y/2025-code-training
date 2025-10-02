@@ -1,0 +1,91 @@
+#boxMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#inDt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dt {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+
+    font-weight: bold;
+}
+
+#content {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+#box {
+    width : 70%;
+}
+
+#poster {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    /* padding: 5px; */
+}
+
+#poster > img {
+    width: 80%;
+    border: 1px solid gainsboro;
+}
+
+.boxli {
+    padding: 3px;
+    margin: 2px;
+}
+
+.boxrank {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 4px;
+
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+.spr, .spb, .sp {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.spr {
+    color: red;
+}
+
+.spb {
+    color: blue;
+}
+
+.spr > i, .spb > i {
+    font-size: small;
+}
+
